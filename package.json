@@ -1,0 +1,30 @@
+{
+  "name": "react-you-tube-api",
+  "version": "1.0.0",
+  "description": "Starter for Redux with React and Babel api YouTube",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "build": "webpack"
+  },
+  "author": "Pauliuts Evans",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5",
+    "youtube-api-search": "0.0.5"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  }
+}
